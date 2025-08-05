@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Background Colors (Light) */
+    --global-bg-1: #1c1c1c0c;
+    --global-bg-2: #1c1c1c19;
+    --global-bg-3: #a8c5da;
+    --global-bg-4: #e3f5ff;
+    --global-bg-5: #e5ecf6;
+    --global-bg-6: #f7f9fb;
+    --global-bg-7: #ffffff;
+
+    /* Global Text Colors (Light) */
+    --global-text-1: #1c1c1c;
+    --global-text-2: #1c1c1c33;
+    --global-text-3: #1c1c1c66;
+    --global-text-4: #4aa785;
+    --global-text-5: #59a8d4;
+    --global-text-6: #8a8cd9;
+    --global-text-7: #ffc554;
+
+    /* SearchView Colors (Light) */
+    --searchview-bg-1: #ffffff66;
+
+    /* Button Colors (Light) */
+    --button-bg-1: #1c1c1ccc;
+    --button-text-1: #ffffff;
+  }
+
+  .dark {
+    /* Global Background Colors (Dark) */
+    --global-bg-1: #ffffff0c;
+    --global-bg-2: #ffffff19;
+    --global-bg-3: #374151;
+    --global-bg-4: #e3f5ff;
+    --global-bg-5: #e5ecf6;
+    --global-bg-6: #282828;
+    --global-bg-7: #1c1c1c;
+
+    /* Global Text Colors (Dark) */
+    --global-text-1: #f3f4f6;
+    --global-text-2: #9ca3af;
+    --global-text-3: #6b7280;
+    --global-text-4: #4aa785;
+    --global-text-5: #59a8d4;
+    --global-text-6: #8a8cd9;
+    --global-text-7: #ffc554;
+
+    /* SearchView Colors (Dark) */
+    --searchview-bg-1: ##1C1C1C66;
+
+    /* Button Colors (Dark) */
+    --button-bg-1: #f3f4f6cc;
+    --button-text-1: #181f2a;
+  }
+}
+
+@layer utilities {
+  /* Global Background */
+  .bg-global-1 {
+    background-color: var(--global-bg-1);
+  }
+  .bg-global-2 {
+    background-color: var(--global-bg-2);
+  }
+  .bg-global-3 {
+    background-color: var(--global-bg-3);
+  }
+  .bg-global-4 {
+    background-color: var(--global-bg-4);
+  }
+  .bg-global-5 {
+    background-color: var(--global-bg-5);
+  }
+  .bg-global-6 {
+    background-color: var(--global-bg-6);
+  }
+  .bg-global-7 {
+    background-color: var(--global-bg-7);
+  }
+
+  /* Global Text */
+  .text-global-1 {
+    color: var(--global-text-1);
+  }
+  .text-global-2 {
+    color: var(--global-text-2);
+  }
+  .text-global-3 {
+    color: var(--global-text-3);
+  }
+  .text-global-4 {
+    color: var(--global-text-4);
+  }
+  .text-global-5 {
+    color: var(--global-text-5);
+  }
+  .text-global-6 {
+    color: var(--global-text-6);
+  }
+  .text-global-7 {
+    color: var(--global-text-7);
+  }
+
+  /* SearchView */
+  .bg-searchview-1 {
+    background-color: var(--searchview-bg-1);
+  }
+
+  /* Button */
+  .bg-button-1 {
+    background-color: var(--button-bg-1);
+  }
+  .text-button-1 {
+    color: var(--button-text-1);
+  }
+
+  .dark .themed-icon {
+    filter: invert(1) brightness(2);
+  }
+}
