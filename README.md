@@ -1,4 +1,10 @@
+
 # React + Vite + Tailwind CSS Project
+
+## Live Demo
+
+- 🚀 Deployed App: [https://react-dashboard-zwu3.vercel.app](https://react-dashboard-zwu3.vercel.app)
+- 🗂️ GitHub Repo: [https://github.com/Mouli1807/React_Dashboard](https://github.com/Mouli1807/React_Dashboard)
 
 A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
 
